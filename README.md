@@ -14,6 +14,9 @@ Wrapper classes for integrating with PayPal Express Checkout API
   
 PayPalRequest request = new PayPalRequest();
 
+//set url
+request.setUrl("https://api-t3.sandbox.paypal.com/nvp");
+
 //set the credentials
 request.setUsername(<username>);
 request.setPassword(<password>);
